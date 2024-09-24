@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ff00cd; /* Light background color */
+  font-family: "Open Sans", sans-serif; /* Custom font for body text */
+}
+
+h1 {
+  color: #343a40; /* Dark gray color for headings */
+  text-align: center; /* Center align headings */
+  font-family: "Poppins", sans-serif; /* Custom font for headings */
+  font-weight: 600; /* Bold weight for headings */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens if necessary */
+}
